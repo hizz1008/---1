@@ -3,7 +3,11 @@
 @import "introduce.css";
 @import "background.css";
 @import "content.css";
+@import "container.css";
 
 * {
   text-decoration-line: none;
+}
+:root{
+  --main-text-color: rgba(0,0,0,0.7);
 }

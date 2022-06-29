@@ -1,0 +1,8 @@
+.container img{
+    width: 50%;
+    height: 650px;
+    object-fit: cover;
+}
+.container{
+    background-color: rgba(108, 110, 69,0.8);
+}
