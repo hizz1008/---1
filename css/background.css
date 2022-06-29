@@ -1,0 +1,18 @@
+.background-img_001 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/img_001.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.background-img_002 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/img_007.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}

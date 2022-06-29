@@ -1,0 +1,9 @@
+@import "banner.css";
+@import "reset.css";
+@import "introduce.css";
+@import "background.css";
+@import "content.css";
+
+* {
+  text-decoration-line: none;
+}

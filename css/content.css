@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.01);
+  position: relative;
+  font-weight: 800;
+}
+
+.content-main-text {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #6c6e45;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.content span {
+  opacity: 70%;
+}
+
+.contents-phto {
+  display: flex;
+  justify-content: space-between;
+}
+.contents-phto img {
+  width: 200px;
+  height: 300px;
+  padding: 0px 50px;
+  object-fit: cover;
+}
+.phto_card_text {
+}
