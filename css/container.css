@@ -1,9 +1,9 @@
-.container img{
+.container_2 img{
     width: 50%;
     height: 650px;
     object-fit: cover;
 }
-.container{
+.container_2{
     display: flex;
     background-color: rgba(108, 110, 69,0.8);
 }
