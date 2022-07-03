@@ -4,5 +4,6 @@
     object-fit: cover;
 }
 .container{
+    display: flex;
     background-color: rgba(108, 110, 69,0.8);
 }
