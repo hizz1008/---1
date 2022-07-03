@@ -5,7 +5,6 @@
   top: 300px;
   opacity: 95%;
 }
-
 .introduce-text {
   background-color: rgba(255, 255, 255, 0.3);
   padding: 20px 200px;
@@ -23,26 +22,21 @@
   font-size: 25px;
   text-transform: uppercase;
 }
-.read-more-btn {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+#read-more-btn {
   text-transform: uppercase;
   background-color: white;
   width: 100px;
   padding: 5px;
+  margin-bottom: 10px;
   border-radius: 20px;
 }
-.read-more-container {
-  padding-top: 20px;
-  width: 250px;
-}
-.read-more-text {
-  display: none;
-}
-.read-more-text--show {
-  display: inline;
-}
 
-
+.container {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  max-width: 230px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
