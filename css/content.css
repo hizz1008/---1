@@ -25,15 +25,18 @@
 
 .contents-photo {
   display: flex;
-  justify-content: space-between;
   margin: 10px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .contents-photo-card {
   display: flex;
-  margin: 0px 30px;
+  justify-content: space-between;
+  margin: 10px 30px;
+  max-width: 200px;
+  max-height: 300px;
   flex-direction: column;
-  width: 200px;
-  height: auto;
 }
 .contents-photo img {
   width: 200px;
@@ -86,4 +89,24 @@
 }
 .more-photo-card {
   display: flex;
+}
+.showing {
+  display: flex;
+  position: relative;
+  animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1057px) {
+  .contents-photo {
+    display: flex;
+    justify-content: none;
+  }
 }
