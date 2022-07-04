@@ -6,10 +6,10 @@
   background-color: rgba(0, 0, 0, 0.05);
   position: relative;
   font-weight: 800;
-  height: 650px;
+  height: auto;
 }
 
-.content-title{
+.content-title {
   padding-top: 80px;
   padding-bottom: 20px;
   color: #6c6e45;
@@ -20,7 +20,7 @@
   width: 300px;
   text-align: center;
   text-align: center;
-  color:   var(--main-text-color);
+  color: var(--main-text-color);
 }
 
 .contents-photo {
@@ -28,7 +28,7 @@
   justify-content: space-between;
   margin: 10px auto;
 }
-.contents-photo-card{
+.contents-photo-card {
   display: flex;
   margin: 0px 30px;
   flex-direction: column;
@@ -44,25 +44,25 @@
   display: block;
   width: 200px;
   height: 100px;
-  background-color: rgba(108, 110, 69,0.8);
+  background-color: rgba(108, 110, 69, 0.8);
 }
-.photo-card-title{
+.photo-card-title {
   padding: 10px;
   text-transform: capitalize;
   color: var(--main-text-color);
   font-size: 18px;
 }
-.photo-card-text{
+.photo-card-text {
   padding: 0px 10px;
   color: var(--main-text-color);
   font-size: 15px;
 }
 
-.content-more{
+.content-more {
   margin-top: 20px;
   margin-bottom: 50px;
 }
-.content-more-btn{
+.content-more-btn {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -70,7 +70,7 @@
   font-size: 20px;
   width: 150px;
   height: 50px;
-  background-color: rgba(108, 110, 69,0.8);
+  background-color: rgba(108, 110, 69, 0.8);
   box-shadow: 0px 5px rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
   border-radius: 25px;
@@ -79,10 +79,11 @@
   transition-duration: 0.3s;
   cursor: pointer;
 }
-.content-more-btn:active{
-position: relative;
-top: 2px;
+.content-more-btn:active {
+  position: relative;
+  top: 2px;
   box-shadow: none;
 }
-1
-
+.more-photo-card {
+  display: flex;
+}
