@@ -32,12 +32,12 @@
   flex-direction: column;
   font-size: 60px;
   text-transform: capitalize;
-  color: white;
+  color: var(--main-white);
 }
 .adContainerText {
   padding: 5% 0px;
   font-size: 30px;
-  color: white;
+  color: var(--main-white);
 }
 .adContainer-more {
   display: flex;

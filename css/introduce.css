@@ -8,6 +8,7 @@
 }
 .introduce-text {
   background-color: rgba(255, 255, 255, 0.3);
+  color: var(--main-text-color);
   padding: 20px 200px;
   font-weight: 800;
   color: rgba(0, 0, 0, 0.7);
@@ -23,7 +24,7 @@
   font-size: 25px;
   text-transform: uppercase;
 }
-.read-more-container{
+.read-more-container {
   align-items: flex-start;
   padding: 0px 10px;
 }
@@ -31,44 +32,44 @@
   text-transform: uppercase;
   text-align: center;
   background-color: white;
+  color: var(--main-text-color);
   width: 100px;
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 20px;
   cursor: pointer;
 }
-#read-more-btn:active{
+#read-more-btn:active {
   position: relative;
   top: 2px;
-  color:white;
+  color: white;
   background-color: #6c6e45;
-  }
+}
 
 .container {
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
+  color: var(--main-text-color);
   max-width: 230px;
   white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
-  
 }
-@media screen and (max-width:760px){
-  .introduce-text{
+@media screen and (max-width: 760px) {
+  .introduce-text {
     padding: 10px 0px;
     width: 100%;
   }
   .introduce-text h1,
   .introduce-text h2,
   .read-more-btn,
-  .container p{
+  .container p {
     padding: 0px 10px;
-    
   }
 }
-@media screen and (max-width:525px) {
-  .introduce-text h1{
+@media screen and (max-width: 525px) {
+  .introduce-text h1 {
     font-size: 35px;
   }
 }

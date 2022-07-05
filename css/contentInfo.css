@@ -1,8 +1,11 @@
 .contentinfo {
-  margin-top: 700px;
+  margin-top: 700.2px;
   display: flex;
   justify-content: space-between;
-  padding: 100px;
+  padding: 100px 160px;
+  background-color: rgb(151, 127, 89);
+  border-top: 1px solid rgb(179, 152, 118);
+  font-weight: 800;
 }
 .aside_area {
   display: flex;
@@ -11,4 +14,51 @@
 }
 .crop_area {
   display: flex;
+}
+.aside-title {
+  color: var(--main-white);
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.aside-text {
+  line-height: 18px;
+}
+.aside-icon {
+  padding-top: 10px;
+  font-size: 30px;
+}
+.aside-icon :hover {
+  color: var(--main-white);
+}
+.crop-title {
+  display: block;
+  font-size: 15px;
+  color: var(--main-text-color);
+  padding: 0px 10px;
+}
+.crop-title span {
+  display: block;
+  font-size: 20px;
+  color: var(--main-white);
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.crop-title li {
+  padding: 2px 0px;
+
+  text-transform: capitalize;
+}
+.crop-title li:hover {
+  color: var(--main-white);
+  animation: liHover 0.2s ease-in-out;
+  font-size: 17px;
+}
+@keyframes liHover {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
