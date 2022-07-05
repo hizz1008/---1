@@ -4,6 +4,7 @@
 @import "background.css";
 @import "content.css";
 @import "advertisement.css";
+@import "contentInfo.css";
 
 * {
   text-decoration-line: none;

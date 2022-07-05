@@ -1,0 +1,14 @@
+.contentinfo {
+  margin-top: 700px;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+.aside_area {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.crop_area {
+  display: flex;
+}
