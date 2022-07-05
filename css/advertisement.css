@@ -1,25 +1,88 @@
-.advertisement-container{
-    max-width: 100%;
-    height: 600px;
-    display: flex;
-    background-color:#6c6e45;
+.advertisement {
+  background-color: rgb(137, 131, 122);
 }
-.advertisement-container img{
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
+.advertisement-2 {
+  background-color: rgb(135, 138, 91);
 }
-.adContainerTitle{
-    display: flex;
-    align-items: center;
-    padding: 0px 10%;
-    font-size: 40px;
-    font-weight: 800;
-    text-transform: capitalize;
-    color: white;
+
+.advertisement,
+.advertisement-2 {
+  max-width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 0;
 }
-@media screen and (max-width:880px) {
-    .advertisement-container img{
-        display: none;
-    }
+.adContainer-container {
+  padding: 0px 10%;
+  font-weight: 700;
+  width: 50%;
+}
+.advertisement img,
+.advertisement-2 img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.adContainerTitle {
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+  text-transform: capitalize;
+  color: white;
+}
+.adContainerText {
+  padding: 5% 0px;
+  font-size: 30px;
+  color: white;
+}
+.adContainer-more {
+  display: flex;
+  justify-content: flex-start;
+}
+.adContainer-more-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: rgba(108, 110, 70, 0.7);
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  border-radius: 25px;
+  letter-spacing: 5px;
+  color: var(--main-text-color);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.adContainer-more-btn:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+.showing {
+  z-index: 1;
+  position: relative;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 880px) {
+  .advertisement img,
+  .advertisement-2 img {
+    display: none;
+  }
+  .adContainerTitle {
+    font-size: 20px;
+  }
+  .adContainer-more-btn {
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.8);
+  }
 }
