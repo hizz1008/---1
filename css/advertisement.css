@@ -1,0 +1,25 @@
+.advertisement-container{
+    max-width: 100%;
+    height: 600px;
+    display: flex;
+    background-color:#6c6e45;
+}
+.advertisement-container img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.adContainerTitle{
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: white;
+}
+@media screen and (max-width:880px) {
+    .advertisement-container img{
+        display: none;
+    }
+}

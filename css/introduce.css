@@ -4,6 +4,7 @@
   position: relative;
   top: 300px;
   opacity: 95%;
+  margin-bottom: 10px;
 }
 .introduce-text {
   background-color: rgba(255, 255, 255, 0.3);
@@ -22,7 +23,10 @@
   font-size: 25px;
   text-transform: uppercase;
 }
-
+.read-more-container{
+  align-items: flex-start;
+  padding: 0px 10px;
+}
 #read-more-btn {
   text-transform: uppercase;
   text-align: center;
@@ -36,6 +40,7 @@
 #read-more-btn:active{
   position: relative;
   top: 2px;
+  color:white;
   background-color: #6c6e45;
   }
 
@@ -47,4 +52,23 @@
   white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
+  
+}
+@media screen and (max-width:760px){
+  .introduce-text{
+    padding: 10px 0px;
+    width: 100%;
+  }
+  .introduce-text h1,
+  .introduce-text h2,
+  .read-more-btn,
+  .container p{
+    padding: 0px 10px;
+    
+  }
+}
+@media screen and (max-width:525px) {
+  .introduce-text h1{
+    font-size: 35px;
+  }
 }

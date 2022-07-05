@@ -61,6 +61,9 @@
   right: 25px;
   font-size: 22px;
 }
+.banner-toogletBtn:hover{
+  color: #4b4d2e;
+}
 
 @media screen and (max-width: 890px) {
   .banner {
