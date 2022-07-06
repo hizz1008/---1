@@ -1,19 +1,28 @@
 .contentinfo {
-  margin-top: 700.2px;
   display: flex;
   justify-content: space-between;
-  padding: 100px 160px;
+  padding: 100px 0px;
   background-color: rgb(151, 127, 89);
   border-top: 1px solid rgb(179, 152, 118);
   font-weight: 800;
+  width: 100%;
+}
+.comtentinfo-bottom {
+  position: absolute;
+  bottom: 1;
+}
+.contentinfo-margin-top {
+  margin-top: 700.2px;
 }
 .aside_area {
   display: flex;
   flex-direction: column;
   max-width: 400px;
+  padding-left: 160px;
 }
 .crop_area {
   display: flex;
+  padding-right: 160px;
 }
 .aside-title {
   color: var(--main-white);
@@ -52,7 +61,6 @@
 .crop-title li:hover {
   color: var(--main-white);
   animation: liHover 0.2s ease-in-out;
-  font-size: 17px;
 }
 @keyframes liHover {
   0% {

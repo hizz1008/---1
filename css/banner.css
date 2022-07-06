@@ -65,6 +65,11 @@
 .banner-toogletBtn:hover {
   color: #4b4d2e;
 }
+.coonect-banner {
+  background-color: #4b4d2e;
+  color: var(--main-white);
+  border-radius: 10px;
+}
 
 @media screen and (max-width: 890px) {
   .banner {
