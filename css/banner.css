@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
 }
-.meun-container {
+.menu-container{
   padding: 10px 30px;
   display: flex;
   text-transform: uppercase;
@@ -20,7 +20,13 @@
   font-weight: 600;
   white-space: nowrap;
 }
-.meun-container:hover {
+.menu-connect{
+  background-color: #4b4d2e;
+  color: var(--main-white);
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+.menu-container:hover {
   background-color: #4b4d2e;
   color: var(--main-white);
   border-radius: 10px;
